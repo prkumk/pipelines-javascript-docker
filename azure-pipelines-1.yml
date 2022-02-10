@@ -25,7 +25,7 @@ stages:
       displayName: Build an image and push to docker hub
       inputs:
         containerRegistry: 'prasadcontainerregistryconnection'
-        repository: 'sitecoregeek'
+        repository: 'msnodeapp'
         command: 'buildAndPush'
         dockerfile: '$(Build.SourcesDirectory)/app/Dockerfile'
         tags: |
